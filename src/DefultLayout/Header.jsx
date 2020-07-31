@@ -1,16 +1,15 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { Nav, NavItem, Dropdown, DropdownItem, DropdownToggle, DropdownMenu, NavLink } from 'reactstrap';
 
-const Example = (props) => {
-    const [dropdownOpen, setDropdownOpen] = useState(false);
-  
-    const toggle = () => setDropdownOpen(!dropdownOpen);
-function Header() {
+function Header(props) {
+        const [dropdownOpen, setDropdownOpen] = useState(false);
+      
+        const toggle = () => setDropdownOpen(!dropdownOpen);
     return (
       
         <Nav tabs>
           <NavItem>
-            <NavLink href="#" active>Link</NavLink>
+            <NavLink href="/posts" active>Link</NavLink>
           </NavItem>
           <Dropdown nav isOpen={dropdownOpen} toggle={toggle}>
             <DropdownToggle nav caret>
@@ -37,4 +36,4 @@ function Header() {
     )
 }
 
-export default Header
+export default Header;
