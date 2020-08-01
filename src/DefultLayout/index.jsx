@@ -1,12 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { BrowserRouter as Router, Switch, Route, } from "react-router-dom";
-import Header from './Header';
-import Footer from './Footer';
+import Header from './Header'
+import { Container } from 'reactstrap'
 import PostArchive from '../View/PostArchive';
-function index() {
+import Navbar from './Navbar'
+import Footer from './Footer'
+function Index() {
+
     return (
         <Router>
-               <Header/>
+            <Header />
+            <Container>
+                <Navbar />
                 <Switch>
                     <Route path="/posts">
                         <PostArchive />
@@ -16,8 +21,10 @@ function index() {
                     <Route path="/">
                     </Route>
                 </Switch>
-        </Router>        
+            </Container>
+            <Footer />
+        </Router>
     )
 }
 
-export default index
+export default Index

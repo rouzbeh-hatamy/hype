@@ -1,39 +1,24 @@
-import React,{useState} from 'react'
-import { Nav, NavItem, Dropdown, DropdownItem, DropdownToggle, DropdownMenu, NavLink } from 'reactstrap';
+import React from 'react'
+import './DefaultStyle.scss'
 
-function Header(props) {
-        const [dropdownOpen, setDropdownOpen] = useState(false);
-      
-        const toggle = () => setDropdownOpen(!dropdownOpen);
+function Header() {
     return (
-      
-        <Nav tabs>
-          <NavItem>
-            <NavLink href="/posts" active>Link</NavLink>
-          </NavItem>
-          <Dropdown nav isOpen={dropdownOpen} toggle={toggle}>
-            <DropdownToggle nav caret>
-              Dropdown
-            </DropdownToggle>
-            <DropdownMenu>
-              <DropdownItem header>Header</DropdownItem>
-              <DropdownItem disabled>Action</DropdownItem>
-              <DropdownItem>Another Action</DropdownItem>
-              <DropdownItem divider />
-              <DropdownItem>Another Action</DropdownItem>
-            </DropdownMenu>
-          </Dropdown>
-          <NavItem>
-            <NavLink href="#">Link</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="#">Another Link</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink disabled href="#">Disabled Link</NavLink>
-          </NavItem>
-        </Nav>
+        <div className='header'>
+          
+                <img src={require('../Assets/logo-can.png')} alt="can" className='can' />
+                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 565.88 136.87">
+                    <defs>
+                    </defs>
+                    <path className="cls-1" d="M632.49,422h39.18l-6.1,47.77,36,0L707.68,422h39.19L729.55,557.51H690.37l6.86-53.71-36,0-6.87,53.75H615.17L632.49,422Z" />
+                    <path className="cls-2" d="M887.75,510.66l11.35-90H856.4L851.65,470l-26.48,0c-4.88-.27-7.62-4-7.11-9.88l3.31-39.45H781.21l-4.74,47.72c-.63,17.42,8.25,30.2,25.73,34.93l46.25-.13-.05.52c-2.16,14.53-6.13,20-15.58,20H777.41l-3.62,33.79h69.43c21.14.3,41-15.28,44.53-46.85Z" />
+                    <g className="cl-3">
+                        <path className="cls-31" d="M988.31,420.64h19.13c22.52,0,38,18.15,34.44,40.33l-3,18.84c-3.58,22.18-24.92,40.33-47.44,40.33H972.28a38.12,38.12,0,0,1-12.9-2.18l-3.86,39.55H912.26l11.51-90c3.56-31.58,23.69-47.15,45.11-46.85Z" />
+                        <path className="cls-32" d="M976.35,482.69h14.52c5.43,0,10.45-3.73,11.16-8.29l1.9-12.19c.71-4.56-3.16-8.29-8.58-8.29H980.83c-5.43,0-10.45,3.73-11.16,8.29l-1.9,12.19v.1l-1.27,8.19Z" />
+                    </g>
+                    <path className="cls-4" d="M1163.77,557.51l4.79-37.82h-60.73a1.33,1.33,0,0,1-1.36-1.37l1-12.67a1.41,1.41,0,0,1,1.37-1.36h55.6l3.17-30.13h-55V465.7a5.6,5.6,0,0,1,5.58-5.58h57.94l5-39.25h-59c-24.89,0-47.68,19.29-50.67,42.87L1065,514.63c-3,23.59,14.93,42.88,39.81,42.88h59Z" />
+                </svg>
+        </div>
     )
 }
 
-export default Header;
+export default Header
