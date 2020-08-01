@@ -5,6 +5,8 @@ import { Container } from 'reactstrap'
 import PostArchive from '../View/PostArchive';
 import Navbar from './Navbar'
 import Footer from './Footer'
+import Home from '../View/Home'
+import Contact from '../View/ContactUs/Contact'
 function Index() {
 
     return (
@@ -16,9 +18,11 @@ function Index() {
                     <Route path="/posts">
                         <PostArchive />
                     </Route>
-                    <Route path="/users">
+                    <Route path="/contact">
+                    <Contact/>
                     </Route>
                     <Route path="/">
+                    <Home/>
                     </Route>
                 </Switch>
             </Container>

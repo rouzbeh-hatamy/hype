@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Nav, NavItem, NavLink } from 'reactstrap';
+import { Nav, NavItem } from 'reactstrap';
 import { Link } from "react-router-dom";
 
 
@@ -14,22 +14,18 @@ function Navbaar(props) {
 
         <Nav fill tabs className="navbaar" >
             <NavItem>
-                <Link to="/">
-                    <NavLink className={activeTab === '1' ? 'active' : ''}
-                        onClick={() => { toggle('1'); }} >Home</NavLink>
+                <Link to="/" className={`nav-link ${activeTab === '1' ? 'active' : ''}`} onClick={() => { toggle('1'); }} >
+                         Home
                         </Link>
             </NavItem>
             <NavItem>
-            <Link to="/posts"><NavLink className={activeTab === '2' ? 'active' : ''}
-                    onClick={() => { toggle('2'); }}>Blog</NavLink></Link>
+            <Link to="/posts" className={`nav-link ${activeTab === '2' ? 'active' : ''}`} onClick={() => { toggle('2'); }}>Blog</Link>
             </NavItem>
             <NavItem>
-            <Link to="/about"><NavLink className={activeTab === '3' ? 'active' : ''}
-                    onClick={() => { toggle('3'); }}>About US</NavLink></Link>
+            <Link to="/about" className={`nav-link ${activeTab === '3' ? 'active' : ''}`} onClick={() => { toggle('3'); }}>About US</Link>
             </NavItem>
             <NavItem>
-            <Link to="/contact"><NavLink className={activeTab === '4' ? 'active' : ''}
-                    onClick={() => { toggle('4'); }}>Contact US</NavLink></Link>
+            <Link to="/contact" className={`nav-link ${activeTab === '4' ? 'active' : ''}`} onClick={() => { toggle('4'); }}>Contact US</Link>
             </NavItem>
         </Nav>
     )
