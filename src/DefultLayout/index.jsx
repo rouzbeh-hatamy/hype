@@ -5,7 +5,7 @@ import { Container } from 'reactstrap'
 import PostArchive from '../View/PostArchive';
 import Navbar from './Navbar'
 import Footer from './Footer'
-import Home from '../View/Home'
+import Home from '../View/Home/Home'
 import Contact from '../View/ContactUs/Contact'
 function Index() {
 
