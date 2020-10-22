@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/React-fc-phone-book/static/css/main.9523e6cf.chunk.css",
+    "main.js": "/React-fc-phone-book/static/js/main.33ad18e0.chunk.js",
+    "main.js.map": "/React-fc-phone-book/static/js/main.33ad18e0.chunk.js.map",
+    "runtime-main.js": "/React-fc-phone-book/static/js/runtime-main.cdc78548.js",
+    "runtime-main.js.map": "/React-fc-phone-book/static/js/runtime-main.cdc78548.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/React-fc-phone-book/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.caf5435c.chunk.js": "/React-fc-phone-book/static/js/2.caf5435c.chunk.js",
+    "static/js/2.caf5435c.chunk.js.map": "/React-fc-phone-book/static/js/2.caf5435c.chunk.js.map",
+    "index.html": "/React-fc-phone-book/index.html",
+    "precache-manifest.0d7b714693c4a7a5a88f53b79bf12228.js": "/React-fc-phone-book/precache-manifest.0d7b714693c4a7a5a88f53b79bf12228.js",
+    "service-worker.js": "/React-fc-phone-book/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/React-fc-phone-book/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.9523e6cf.chunk.css.map": "/React-fc-phone-book/static/css/main.9523e6cf.chunk.css.map",
+    "static/js/2.caf5435c.chunk.js.LICENSE.txt": "/React-fc-phone-book/static/js/2.caf5435c.chunk.js.LICENSE.txt",
+    "static/media/DefaultStyle.scss": "/React-fc-phone-book/static/media/bg.25da423a.jpg",
+    "static/media/hemi.ttf": "/React-fc-phone-book/static/media/hemi.648605b9.ttf",
+    "static/media/hype.mp4": "/React-fc-phone-book/static/media/hype.228e900b.mp4",
+    "static/media/logo-can.png": "/React-fc-phone-book/static/media/logo-can.b4613356.png",
+    "static/media/logo-footer.png": "/React-fc-phone-book/static/media/logo-footer.d2f4aeda.png",
+    "static/media/pic.jpg": "/React-fc-phone-book/static/media/pic.c28c4f5f.jpg",
+    "static/media/type2.png": "/React-fc-phone-book/static/media/type2.702e0027.png",
+    "static/media/type3.png": "/React-fc-phone-book/static/media/type3.8f9286e2.png",
+    "static/media/type4.png": "/React-fc-phone-book/static/media/type4.4fcaf553.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cdc78548.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.caf5435c.chunk.js",
+    "static/css/main.9523e6cf.chunk.css",
+    "static/js/main.33ad18e0.chunk.js"
+  ]
+}
