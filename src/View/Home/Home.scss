@@ -4,7 +4,6 @@ body {
   margin: 0px;
   width: 100%;
   height: 100vh;
-  font-family: "Lato";
   overflow-x: hidden;
 }
 .Home-div {
@@ -57,7 +56,7 @@ body {
   transition: all 0.7s ease-in-out;
   padding: 20px;
   box-sizing: border-box;
-  clip-path: circle(0% at 100% 100%);
+  clip-path: circle(10% at 100% 100%);
 }
 .carde:hover .descriptions {
   left: 0px;
@@ -75,7 +74,7 @@ body {
   filter: blur(3px);
 }
 .carde h1,
-.carde h2 {
+.carde h3 {
   color: #ff3838;
   letter-spacing: 1px;
   margin: 0px;

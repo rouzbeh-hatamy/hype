@@ -11,7 +11,7 @@ function Home() {
                 <div className="carde">
                     <img src={require('../../Assets/type3.png')} alt="" />
                     <div className="descriptions">
-                        <h2>Extra Low Calorie</h2>
+                        <h3>Extra Low Calorie</h3>
                         <p>
                             With only 9 calories and 20% of the sugar, Hype Energy Enlite gives you lighter way to get the same maximum energy boost. GREAT TASTING CARBONATED ENERGY DRINK WITH SUGAR AND SWEETENERS, CAFFEINE, TAURINE AND VITAMINS.
                         </p>
@@ -38,7 +38,7 @@ function Home() {
                 <div className="carde">
                     <img src={require('../../Assets/type4.png')} alt="" />
                     <div className="descriptions">
-                        <h1>Cherry Punch</h1>
+                        <h3>Cherry Punch</h3>
                         <p>
                             A unique blend of natural juice and caffeine to give you a delicious tasting Cherry Twist! Caffeine, taurine and B vitamins help provide an energetic Cherry Twist!
                 </p>

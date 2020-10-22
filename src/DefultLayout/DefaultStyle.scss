@@ -37,6 +37,7 @@ video {
   transform: translateX(-50%) translateY(-50%);
 }
 .header {
+  z-index: 1000;
   width: 100vw;
   position: fixed;
   background-image: linear-gradient(
