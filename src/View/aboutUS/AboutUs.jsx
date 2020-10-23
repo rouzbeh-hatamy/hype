@@ -9,7 +9,7 @@ function AboutUs() {
             <div className="info">
                 <h3>Rouzbeh Hatamy</h3>
                 <h5>Front-End Developer</h5>
-                <a href="#">Full Resume</a>
+                <a href="https://docdro.id/sfV5zBj">Full Resume</a>
                 <a href="https://wa.me/+989336067265"> ✔ Hire me ✔</a>
             </div>
         </div>
