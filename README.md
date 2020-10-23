@@ -2,4 +2,4 @@
 
 ## Checkout this awesome landing that I made from scratch
 
-☞[H Y P E ](https://rouzbeh-hatamy.github.io/Justro-landing-page/)
+☞[H Y P E ](https://hype-wheat.vercel.app/)
